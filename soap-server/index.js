@@ -1,9 +1,9 @@
   var myService = {
       MyService: {
           MyPort: {
-              MyFunction: function(args) {
+              HelloWorld: function(args) {
                   return {
-                      name: args.name
+                      name: 'Hello '+args.name
                   };
               },
 
